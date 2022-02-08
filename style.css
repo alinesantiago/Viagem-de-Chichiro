@@ -1,0 +1,128 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to bottom right, var(--green-light-color), var(--green-dark-color));
+
+} 
+
+:root{
+    --font-family: "Poppins", sans-serif;
+
+    --branco-primario: #F9F9F9;
+    --branco-secundario: #EBE9EA;
+
+    --cinza-primario: #474747;
+    --cinza-secundario: #181818;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to right, #628e75 0.66%, #1a4855 83.32%);
+    
+    color: #f9f9f9;
+    font-weight: 400;
+}
+
+.header{
+    height: 300px;
+    display: flex;
+}
+
+.redes{
+    display: flex;
+}
+
+.logo{
+    width: 100px;
+}
+
+
+.autor{
+    font-weight: 400;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sobre{
+    font-size: 16px;
+    line-height: 29px;
+    margin-top: 25px;
+    margin-bottom: 46px;
+    width: 400px;
+}
+
+.nome-filme{
+    font-weight: 1000;
+    font-size: 68px;
+    line-height: 90px;
+    margin-top: 14px;
+}
+
+.main{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    gap: 100px;
+    border-top-width: 20px;
+    margin-top: 62px;
+}
+
+.main-1{
+    width: 435px;
+}
+
+.topo{
+    display: flex;
+    width: 1060;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.subredes{
+    display: flex;
+    gap: 30px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.assista{
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    background-color: #658E76;
+    font-size: 16px;
+    font-style: normal;
+    color: white;
+    width: 245px;
+    height: 45px;
+    -webkit-transform: skew(-15deg);
+    transform: skew(-15deg);
+
+}
+
+@keyframes imagem {
+    from {
+      top: 0;
+    }
+    to {
+      top: -50px;
+    }
+  }
+  
+  .chichiro{
+    width: 500px;
+    position: relative;
+    display: block;
+    animation-name: imagem;
+    animation: imagem 2s infinite ease alternate;
+}
