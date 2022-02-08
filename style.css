@@ -69,6 +69,7 @@ body {
     gap: 100px;
     border-top-width: 20px;
     margin-top: 62px;
+    justify-content: center;
 }
 
 .main-1{
@@ -99,7 +100,6 @@ header{
 }
 
 button {
-    background-color: #658E76;
     font-size: 16px;
     font-style: normal;
     color: white;
@@ -107,7 +107,14 @@ button {
     height: 45px;
     -webkit-transform: skew(-15deg);
     transform: skew(-15deg);
+}
+.agora{
+    background-color: #658E76;
+}
 
+.trailer{
+    border: 2px solid #658E76;
+    background: url();
 }
 
 @keyframes imagem {
